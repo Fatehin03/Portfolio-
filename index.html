@@ -1,0 +1,137 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fatehin Alam | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: #0f0f0f;
+      color: #f2f2f2;
+      overflow-x: hidden;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 2rem 4rem;
+      background: linear-gradient(90deg, #000000, #1a1a1a);
+      box-shadow: 0 0 20px #00fff7;
+    }
+    header h1 {
+      font-size: 2rem;
+      color: #00fff7;
+    }
+    nav a {
+      margin-left: 2rem;
+      text-decoration: none;
+      color: #fff;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #00fff7;
+    }
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 90vh;
+      text-align: center;
+      padding: 2rem;
+      animation: fadeIn 2s ease-in;
+    }
+    .hero img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      border: 4px solid #00fff7;
+      margin-bottom: 1rem;
+    }
+    .hero h2 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      color: #aaa;
+    }
+    .hero a.github-btn {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.7rem 1.5rem;
+      background: #00fff7;
+      color: #000;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .hero a.github-btn:hover {
+      background: #00d0cc;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    section {
+      padding: 4rem 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h3 {
+      color: #00fff7;
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      color: #666;
+      font-size: 0.9rem;
+      background: #111;
+    }
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Fatehin Alam</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <section class="hero">
+    <img src="profile.jpg" alt="Fatehin Alam">
+    <h2>Hi, I'm Fatehin Alam</h2>
+    <p>Student | Chattogram, Bangladesh</p>
+    <p>Email: <a style="color: #00fff7; text-decoration: none;" href="mailto:alamfatehin@gmail.com">alamfatehin@gmail.com</a></p>
+    <a href="https://github.com/Fatehin03" class="github-btn" target="_blank">View My GitHub</a>
+  </section>  <section id="about">
+    <h3>About Me</h3>
+    <p>I’m Fatehin Alam, a passionate and hardworking student currently pursuing my degree in Computer Science and Engineering at Port City International University. I love building interactive projects, exploring modern web and app technologies, and creating digital tools that solve real-world problems. My interests span from system analysis to smart scheduling, Telegram bots, and AI-integrated web apps. I'm based in Chattogram, Bangladesh.</p>
+  </section>  <section id="education">
+    <h3>Academic Qualification</h3>
+    <ul>
+      <li><strong>1st Semester CGPA:</strong> 3.60</li>
+      <li><strong>2nd Semester CGPA:</strong> 3.82</li>
+      <li><strong>3rd Semester CGPA:</strong> 4.00</li>
+      <li><strong>4th Semester CGPA:</strong> 3.86</li>
+      <li><strong>SSC GPA:</strong> 3.22</li>
+      <li><strong>HSC GPA:</strong> 3.92</li>
+    </ul>
+  </section>  <section id="contact">
+    <h3>Contact</h3>
+    <p>📍 Chattogram, Bangladesh</p>
+    <p>📧 <a href="mailto:alamfatehin@gmail.com" style="color:#00fff7;">alamfatehin@gmail.com</a></p>
+  </section>  <footer>
+    &copy; 2025 Fatehin Alam. All rights reserved.
+  </footer>
+</body>
+</html>
